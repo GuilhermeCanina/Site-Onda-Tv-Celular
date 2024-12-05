@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+
+    h1 {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 20px;
+
+     a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    a:hover {
+        color: #f1f1f1;
+    }
+}
+
+nav li {
+    display: inline-block;
+}
+
+#ondatv {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  #ondatv h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  
+  #ondatv img {
+    width: 175px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #ondatv p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0 10%; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  
+  #ondatv ul {
+    list-style: disc inside;
+    padding: 0;
+}
+
+#ondatv li {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#ondacelular {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  #ondacelular h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  
+  #ondacelular img {
+    width: 175px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #ondacelular p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0 10%; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  
+  #ondacelular ul {
+    list-style: disc inside;
+    padding: 0;
+}
+
+#ondacelular li {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#diferencas {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  #diferencas p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0 10%; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  #diferencas ul {
+    list-style: disc inside;
+    padding: 0;
+}
+
+#diferencas li {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+
+#diferencas h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+footer{
+    background: #333;
+    width: 100%;
+    height: 3.5vw;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+
+    p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    li{
+        display: inline-block;
+        color: #fff;
+        padding: 0px;
+        text-decoration: none;
+        font-size: 18px;
+        margin-right: 10px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+
+}
